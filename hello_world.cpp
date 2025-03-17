@@ -2,12 +2,12 @@
 #include <string>
 
 int main(){
-    // name 
+    // Имя 
     std::string name;
-    std::cout << "Enter your name: ";
+    std::cout << "Введите Ваше имя: ";
     std::cin >> name;
 
-    // output
-    std::cout << "Hello world from " << name << " !" << '\n';
+    // Вывод
+    std::cout << "Приветсвтие всем от " << name << " !" << '\n';
     return 0;
 }
